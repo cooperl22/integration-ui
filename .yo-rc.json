@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "IntegrationUI",
+    "packageName": "com.cooperl.si.integration.ui",
+    "packageFolder": "com/cooperl/si/integration/ui",
+    "serverPort": 4321,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.2",
+    "jwtSecretKey": "YTYyM2U5YWRiOTNhNmNhZjY4ZmYyNzFkOGQ3MGI4NWMzYmRjOTZlMzM5ZjVkZjA2OTM3ODExMThjOWY4Y2EwY2FmYjBjMDkyM2FjMTliMGNmZWMyNGJhZDUyOGM1NTE4NDI1ZDk1N2JmMjYwZDQyZmZiZTkzNGZiZTUzNGE1ZmI=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "cooperl22",
+  "repository-name": "integration-ui"
+}
